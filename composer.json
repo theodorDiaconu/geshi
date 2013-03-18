@@ -1,5 +1,5 @@
 {
-    "name":         "behat/behat",
+    "name":         "theodordiaconu/geshi",
     "description":  "Geshi library",
     "keywords":     ["Symfony2", "highlighter", "geshi"],
     "homepage":     "http://qbnz.com/highlighter/",
