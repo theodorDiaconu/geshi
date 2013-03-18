@@ -1,0 +1,17 @@
+{
+    "name":         "behat/behat",
+    "description":  "Geshi library",
+    "keywords":     ["Symfony2", "highlighter", "geshi"],
+    "homepage":     "http://qbnz.com/highlighter/",
+    "type":         "library",
+    "license":      "MIT",
+    "require": {
+        "php":                           ">=4.3.0",
+    },
+
+    "autoload": {
+        "psr-0": {
+            "GeSHi\\GeSHi": "src/"
+        }
+    },
+}
