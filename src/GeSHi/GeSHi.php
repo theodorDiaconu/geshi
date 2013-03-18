@@ -1,4 +1,6 @@
 <?php
+namespace GeSHi;
+
 /**
  * GeSHi - Generic Syntax Highlighter
  *
@@ -594,7 +596,7 @@ class GeSHi {
      *               {@link GeSHi->set_language_path()}
      * @since 1.0.0
      */
-    function GeSHi($source = '', $language = '', $path = '') {
+    public function __construct($source = '', $language = '', $path = '') {
         if (!empty($source)) {
             $this->set_source($source);
         }
